@@ -1,7 +1,7 @@
 const expect = require('chai').expect;
-const example_function = require('../example_function');
+const example_function = require('../function_to_test/sync_function');
 
-describe('Simple Math Test', () => {
+describe('Simple sync test', () => {
     it('should return 2', () => {
         expect(1 + 1).to.equal(2);
     });
